@@ -1,0 +1,9 @@
+export const host = `${process.env.api_url}`;
+export const registerRoute = `${host}/api/auth/register`;
+export const loginRoute = `${host}/api/auth/login`;
+export const resetRoute = `${host}/api/auth/reset`;
+export const postRoute = `${host}/api/posts`;
+export const getPostsRoute = `${host}/api/posts/pull`;
+export const logoutRoute = `${host}/api/auth/logout`;
+export const getAllUsers = `${host}/api/auth/allusers`;
+export const acceptUser = `${host}/api/auth/changeState/`;
